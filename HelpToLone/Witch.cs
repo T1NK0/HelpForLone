@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HelpForLone
 {
+    /// <summary>
+    /// Creates a witch, using the BasicAbility interfaces, the magictransport interfaces and the shield ability interface
+    /// </summary>
     class Witch : IBasicAbilitys, IShieldAbilitys, IMagicTransport
     {
 

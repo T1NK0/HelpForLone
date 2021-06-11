@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HelpForLone
 {
+    /// <summary>
+    /// Creates a knight class, containing the interface for the basic abilitys, the melee abilities, and the shield abilities.
+    /// </summary>
     class Knight : IBasicAbilitys, IMelee, IShieldAbilitys
     {
         public void Bash()

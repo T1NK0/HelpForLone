@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HelpForLone
 {
+    /// <summary>
+    /// Creates a barbarian, which uses the interface basicAbilitys, and melee abilitys
+    /// </summary>
     class Barbarian : IBasicAbilitys, IMelee
     {
         public void Bash()

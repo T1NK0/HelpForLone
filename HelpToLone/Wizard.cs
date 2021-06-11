@@ -4,6 +4,9 @@ using System.Text;
 
 namespace HelpForLone
 {
+    /// <summary>
+    /// Creates a wizard with the interfaces magicattacks, basic abilitys, and magic transport
+    /// </summary>
     class Wizard : IMagicAttacks, IBasicAbilitys, IMagicTransport
     {
         public void Die()
